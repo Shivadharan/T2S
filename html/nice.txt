@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Slider</title>
+</head>
+<body>
+
+  <h3>Volume: <span id="value">50</span></h3>
+  
+  <input type="range" id="slider" min="0" max="100" value="50" />
+
+  <script>
+    const slider = document.getElementById("slider");
+    const valueDisplay = document.getElementById("value");
+
+    slider.addEventListener("input", function() {
+      valueDisplay.textContent = slider.value;
+    });
+  </script>
+
+</body>
+</html>
