@@ -17,4 +17,5 @@ T2S is a simple chrome extension where:
 - Simple UI
 - Speed customization slider
 - Users can copy paste text from sources to read out(if pdf or other incompatible files)
+- Pause speech for convenient text changes
 
